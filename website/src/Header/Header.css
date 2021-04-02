@@ -1,16 +1,17 @@
 #Header {
+    height: 10vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .nav-list {
     display: flex;
-    flex-direction: row;
 }
 
 .nav-item {
-    display: flex;
-    justify-content: space-between;
+    justify-items: space-between;
 }
 
 .nav-link {
