@@ -19,6 +19,9 @@ export default class Header extends Component {
                     <div className="nav-item">
                         <a href="#Contact" className="nav-link">Contact</a>
                     </div>
+                    <div className="nav-item">
+                        <a href="#Resume" className="nav-link">Resume</a>
+                    </div>
                 </div>
             </div>
         )
