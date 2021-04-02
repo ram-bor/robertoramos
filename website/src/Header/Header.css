@@ -1,12 +1,19 @@
-.Header-Parent {
-    text-align: center;
-    list-style-type: none;
-    line-height: 100px;
-    text-decoration: none;
+#Header {
+    display: flex;
+    justify-content: center;
 }
 
 .nav-list {
-    list-style-type: none;
-    line-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
     text-decoration: none;
+    letter-spacing: 1px;
 }

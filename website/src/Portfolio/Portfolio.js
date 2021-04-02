@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
+import './Portfolio.css'
 import { LoremIpsum } from 'react-lorem-ipsum'
-import './About.css'
 
-export default class About extends Component {
+export default class Portfolio extends Component {
     render() {
         return (
-            <div id="About">
-                <h1>About Me</h1>
+            <div id="Portfolio">
+                <h1>Portfolio</h1>
                 <LoremIpsum />
             </div>
         )

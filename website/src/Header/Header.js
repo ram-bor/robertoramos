@@ -4,21 +4,22 @@ import './Header.css'
 export default class Header extends Component {
     render() {
         return (
-            <div className="Header-Parent">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="./home.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./portfolio.html" class="nav-link">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./about.html" class="nav-link">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./contact.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
+            <div id="Header">
+                <div className="nav-list">
+                    <div className="nav-item">
+                        <a href="Header" className="nav-link">Home</a>
+                    </div>
+                    <div className="nav-item">
+                        <a href="#About" className="nav-link">About Me</a>
+                    </div>
+                    <div
+                        className="nav-item">
+                        <a href="#Portfolio" className="nav-link">Portfolio</a>
+                    </div>
+                    <div className="nav-item">
+                        <a href="#Contact" className="nav-link">Contact</a>
+                    </div>
+                </div>
             </div>
         )
     }
