@@ -1,3 +1,12 @@
 .Header-Parent {
     text-align: center;
+    list-style-type: none;
+    line-height: 100px;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+    line-height: 100px;
+    text-decoration: none;
 }
