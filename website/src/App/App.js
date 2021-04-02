@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Portfolio />
       <Contact />
+      <Footer />
     </React.Fragment>
   );
 }
