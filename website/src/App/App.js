@@ -8,13 +8,13 @@ import Footer from '../Footer/Footer'
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="App">
       <Home />
       <About />
       <Portfolio />
       <Contact />
       <Footer />
-    </React.Fragment>
+    </div>
   );
 }
 
