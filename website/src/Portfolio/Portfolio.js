@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './Portfolio.css'
-// import Nav from 'react-bootstrap/Nav'
-
 import OrderPorter from './Images/mern-project.png'
-// import NavLink from 'react-bootstrap/esm/NavLink'
+import swb from './Images/swb-app.png'
+import GoDish from './Images/godish.png'
+// import Nav from 'react-bootstrap/Nav'
 
 export default class Portfolio extends Component {
     render() {
@@ -12,10 +12,17 @@ export default class Portfolio extends Component {
                 <h1>Projects</h1>
                 <div className="project-parent-container">
                     <div className="project-div">
-                        <img href={OrderPorter} alt="order porter project" style={{ width: '200px' }}></img>Order Porter
+                        <h2>Order Porter</h2>
+                        <img src={OrderPorter} alt="order porter image" style={{ width: '400px' }}></img>
                     </div>
-                    <div className="project-div"></div>
-                    <div className="project-div"></div>
+                    <div className="project-div">
+                        <h2>Statistics without Borders</h2>
+                        <img src={swb} alt="statistics without border image" style={{ width: '400px' }}></img>
+                    </div>
+                    <div className="project-div">
+                        <h2>GoDish</h2>
+                        <img src={GoDish} alt="goDish image" style={{ width: '400px' }}></img>
+                    </div>
                 </div>
             </div>
         )

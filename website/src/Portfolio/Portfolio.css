@@ -6,3 +6,14 @@
 #Portfolio h1 {
     color: #2E5664;
 }
+
+.project-parent-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-div {
+    border: 2px solid blue;
+}
+
+.project-div:hover {}
