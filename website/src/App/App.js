@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Header from '../Header/Header'
+import Navbar from '../Header/Navbar'
 import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio'
 import Contact from '../Contact/Contact'
@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer'
 function App() {
   return (
     <React.Fragment>
-      <Header />
+      <Navbar />
       <About />
       <Portfolio />
       <Contact />
