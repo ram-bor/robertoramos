@@ -16,7 +16,7 @@ export default class About extends Component {
                             As a Software Developer, I seek first to establish a clear understanding of the problem. My resources are
                             icnw In my freetime, I enjoy biking, hiking, collecting vinyl, and recently (due to Covid-19),
                             attempting to cook new and delicious recipes at home.
-                        I live by the <i>code</i> that in order to improve you have to fail often.
+                            I live by the <i>code</i> that improvement supersedes failure.
                     </p>
                     </div>
                 </div>
