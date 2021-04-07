@@ -31,13 +31,21 @@ export default class Portfolio extends Component {
                     <div className="project-div">
                         <h2>Statistics without Borders</h2>
                         <img src={swb} alt="statistics without border image" style={{ width: '400px' }}></img>
+                        <div className="overlay">
+                            <Nav.Link href={orderPorterLink}>
+                                <FontAwesomeIcon icon={faCodeBranch} />
+                            </Nav.Link>
+                        </div>
+                        <div className="project-div">
+                            <h2>GoDish</h2>
+                            <img src={GoDish} alt="goDish image" style={{ width: '400px' }}></img>
+                            <div className="overlay">
+                                <Nav.Link href={orderPorterLink}>
+                                    <FontAwesomeIcon icon={faCodeBranch} />
+                                </Nav.Link>
+                            </div>
+                        </div>
                     </div>
-                    <div className="project-div">
-                        <h2>GoDish</h2>
-                        <img src={GoDish} alt="goDish image" style={{ width: '400px' }}></img>
-                    </div>
-                </div>
-            </div>
         )
     }
 }
