@@ -3,7 +3,13 @@ import './Portfolio.css'
 import OrderPorter from './Images/mern-project.png'
 import swb from './Images/swb-app.png'
 import GoDish from './Images/godish.png'
-// import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav'
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
+var orderPorterLink = "https://github.com/ram-bor/group-mern-project"
+
 
 export default class Portfolio extends Component {
     render() {
@@ -13,7 +19,14 @@ export default class Portfolio extends Component {
                 <div className="project-parent-container">
                     <div className="project-div">
                         <h2>Order Porter</h2>
-                        <img src={OrderPorter} alt="order porter image" style={{ width: '400px' }}></img>
+                        <div className="image-div">
+                            <img src={OrderPorter} alt="order porter image" style={{ width: '400px' }}></img>
+                            <div className="overlay">
+                                <Nav.Link href={orderPorterLink}>
+                                    <FontAwesomeIcon icon={faCodeBranch} />
+                                </Nav.Link>
+                            </div>
+                        </div>
                     </div>
                     <div className="project-div">
                         <h2>Statistics without Borders</h2>

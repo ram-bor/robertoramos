@@ -6,7 +6,8 @@ export default class Contact extends Component {
     render() {
         return (
             <div id="Contact">
-                <h1>Contact me plaassssaelfkdng;lsdngldgldgldglkdh</h1>
+                <h1>Get in touch. Email below</h1>
+                <div>box here</div>
             </div>
         )
     }
