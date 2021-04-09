@@ -36,16 +36,18 @@ export default class Portfolio extends Component {
                                 <FontAwesomeIcon icon={faCodeBranch} />
                             </Nav.Link>
                         </div>
-                        <div className="project-div">
-                            <h2>GoDish</h2>
-                            <img src={GoDish} alt="goDish image" style={{ width: '400px' }}></img>
-                            <div className="overlay">
-                                <Nav.Link href={orderPorterLink}>
-                                    <FontAwesomeIcon icon={faCodeBranch} />
-                                </Nav.Link>
-                            </div>
+                    </div>
+                    <div className="project-div">
+                        <h2>GoDish</h2>
+                        <img src={GoDish} alt="goDish image" style={{ width: '400px' }}></img>
+                        <div className="overlay">
+                            <Nav.Link href={orderPorterLink}>
+                                <FontAwesomeIcon icon={faCodeBranch} />
+                            </Nav.Link>
                         </div>
                     </div>
+                </div>
+            </div >
         )
     }
 }

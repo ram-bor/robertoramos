@@ -9,7 +9,7 @@ export default class About extends Component {
                 <h1>About Me</h1>
                 <div className="about-parent">
                     <div className="image-div">
-                        <img src={Headshot} style={{ width: '300px' }} alt="headshot" className="image" />
+                        <img src={Headshot} style={{ width: '250px' }} alt="headshot" className="image" />
                     </div>
                     <div className="statement-div">
                         <p>
