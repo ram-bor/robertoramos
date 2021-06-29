@@ -12,7 +12,7 @@ export default class Home extends Component {
                     <Nav.Link href="#About" className="nav-link">About Me</Nav.Link>
                     <Nav.Link href="#Portfolio" className="nav-link">Portfolio</Nav.Link>
                     <Nav.Link href="#Contact" className="nav-link">Contact</Nav.Link>
-                    <Nav.Link href="#Resume" className="nav-link">Resume</Nav.Link>
+                    <Nav.Link href="https://drive.google.com/file/d/13CgiS6IF98KCbb1kMbHjL5R0zKOviimQ/view?ths=true" className="nav-link">Resume</Nav.Link>
                 </Nav>
             </Navbar>
         )
