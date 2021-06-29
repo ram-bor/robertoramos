@@ -13,8 +13,8 @@ export default class About extends Component {
                     </div>
                     <div className="statement-div">
                         <p>
-                            As a Software Developer, I seek first to establish a clear understanding of the problem. My resources are
-                            icnw In my freetime, I enjoy biking, hiking, collecting vinyl, and recently (due to Covid-19),
+                            As a Software Developer, I establish clear understanding of problems while acting proactively. I pride myself on being a continuous learner meaning always striving for optimal solutions and bridging relationships.
+                            In my freetime, I enjoy biking, hiking, collecting vinyl, and recently (due to Covid-19),
                             attempting to cook new and delicious recipes at home.
                             I live by the <i>code</i> that improvement supersedes failure.
                     </p>

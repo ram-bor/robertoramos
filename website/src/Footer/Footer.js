@@ -47,7 +47,7 @@ export default class Footer extends Component {
                         }} />
                     </a> */}
                 </div>
-                <p className="copyright">Copyright &copy; Roberto Ramos 2020. Revised and revitalized for 2021</p>
+                <p className="copyright">Copyright &copy; 2021. Revitalized and coded by Roberto Ramos.</p>
             </div >
         )
     }
