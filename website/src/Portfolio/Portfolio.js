@@ -9,6 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 var orderPorterLink = "https://github.com/ram-bor/group-mern-project"
+var goDishLink = 'https://github.com/GoDishApp'
+var swbLink = 'https://github.com/ram-bor/swb-app'
 
 
 export default class Portfolio extends Component {
@@ -32,7 +34,7 @@ export default class Portfolio extends Component {
                         <h2>Statistics without Borders</h2>
                         <img src={swb} alt="statistics without border image" style={{ width: '400px' }}></img>
                         <div className="overlay">
-                            <Nav.Link href={orderPorterLink}>
+                            <Nav.Link href={swbLink}>
                                 <FontAwesomeIcon icon={faCodeBranch} />
                             </Nav.Link>
                         </div>
@@ -41,7 +43,7 @@ export default class Portfolio extends Component {
                         <h2>GoDish</h2>
                         <img src={GoDish} alt="goDish image" style={{ width: '400px' }}></img>
                         <div className="overlay">
-                            <Nav.Link href={orderPorterLink}>
+                            <Nav.Link href={goDishLink}>
                                 <FontAwesomeIcon icon={faCodeBranch} />
                             </Nav.Link>
                         </div>
